@@ -37,6 +37,7 @@
          <header-file src="src/ios/Headers/IMSdk.h"/>
          <source-file src="src/ios/libInMobi-5.0.2.a" framework="true"/>
          <framework src="libsqlite3.0.tbd" />
+         <framework src="libz.tbd" />
     </platform>
 
 </plugin>
