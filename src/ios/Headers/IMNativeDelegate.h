@@ -57,4 +57,8 @@
  * Notifies the delegate that the user will be taken outside the application context.
  */
 -(void)userWillLeaveApplicationFromNative:(IMNative*)native;
+/**
+ * Notifies the delegate that the native ad impression has been tracked
+ */
+-(void)nativeAdImpressed:(IMNative*)native;
 @end

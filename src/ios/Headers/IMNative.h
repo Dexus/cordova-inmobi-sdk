@@ -37,7 +37,7 @@
 /**
  * Initialize a Native ad with the given PlacementId
  * @param placementId The placementId for loading the interstitial
- * @param delegte The delegate to receive callbacks from IMNative
+ * @param delegate The delegate to receive callbacks from IMNative
  */
 -(instancetype)initWithPlacementId:(long long)placementId delegate:(id<IMNativeDelegate>)delegate;
 /**
